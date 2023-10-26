@@ -1,0 +1,32 @@
+{
+  "name": "app-back-end",
+  "version": "1.0.0",
+  "description": "ecf api ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "api-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lazarella/ECF-1-L.Carpier.git"
+  },
+  "keywords": [
+    "ecf",
+    "api",
+    "bdd"
+  ],
+  "author": "Lazare",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lazarella/ECF-1-L.Carpier/issues"
+  },
+  "homepage": "https://github.com/Lazarella/ECF-1-L.Carpier#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "uuid": "^9.0.1", 
+    "proxy": "http://localhost:5000"
+
+  }
+}
